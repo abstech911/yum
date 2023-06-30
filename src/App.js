@@ -1,9 +1,23 @@
+import Category from "./components/Category";
+import Delivery from "./components/Delivery";
+import Featured from "./components/Featured";
+import Footer from "./components/Footer";
+import Meal from "./components/Meal";
+import NewsLetter from "./components/NewsLetter";
+import TopNav from "./components/TopNav";
+import TopPicks from "./components/TopPicks";
+
 const App = () => {
   return (
     <div className="App">
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
+      <TopNav />
+      <Featured />
+      <Delivery />
+      <TopPicks />
+      <Meal />
+      <Category />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }
